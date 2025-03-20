@@ -30,6 +30,7 @@ public class PracticeProblem {
 			} catch (IOException e) {
 			}
 		}
+		word = word + "\n";
 		return word;
 	}
 
@@ -53,6 +54,6 @@ public class PracticeProblem {
 			} catch (IOException e) {
 			}
 		}
-		return word.trim();
+		return word;
 	}
 }
